@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio Game</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Developer Portfolio Game</h1>
+        <div id="options">
+            <button onclick="getInfo('experience')">Experience</button>
+            <button onclick="getInfo('software_engineer')">Software Engineer</button>
+            <button onclick="getInfo('education')">Education</button>
+            <button onclick="getInfo('skills')">Skills</button>
+            <button onclick="getInfo('projects')">Projects</button>
+            <button onclick="getInfo('interests')">Interests</button>
+        </div>
+        <div id="result">
+      
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio Shell</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <img src="{{ url_for('static', filename='images/davee.jpg') }}" alt="Davee Image" class="image-style"></img>
+            <div class="desc">
+                <h1>Welcome to Vivian Dagbue's Developer Portfolio Shell!</h1>
+            </div>
+        </div>
+        <div id="shell" class="shell">
+            <div class="instructions">
+                <h3>You are about to learn more about Vivian Dagbue...</h3>
+                <h3>What would you like to know?</h3>
+                <div>1. Intro 2. Experience  2. Education </div>        
+                <div> 4. Skills 5. Projects 6. Interests</div>
+                <div style="padding: 20px 0;" >Choose a number and press Enter:</div>
+            </div>
+            <div id="output">
+            </div>
+            <div id="input">
+                <span>$</span>
+                <input type="text" id="command" onkeydown="handleCommand(event)" onblur="this.focus()" value="1" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
