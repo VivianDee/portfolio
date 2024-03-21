@@ -23,23 +23,25 @@ def get_info():
         result = projects()
     elif section in ["interests", "6"]:
         result = interests()
+    else:
+        result = "Invalid Command<br>"
     return result
 
 def intro():
     return """
-<div>--- Intro ---</div>
-<div>I am deeply passionate about coding and obsessed with delivering exceptional software solutions.
-I strive to write clean, maintainable, and efficient code that exceeds expectations.</div>
+--- Intro ---<br>
+I am deeply passionate about coding and obsessed with delivering exceptional software solutions.
+I strive to write clean, maintainable, and efficient code that exceeds expectations.<br>
 
-<div>If you were to ask me to describe myself, I would say I am someone who is always thinking outside the box.
+If you were to ask me to describe myself, I would say I am someone who is always thinking outside the box.
 I will always find an easier yet efficient way to do things, even when those things are said to be impossible.
-I thrive when faced with doubt and succeed despite hardships. And when I commit to a task, I don't give up until I get it done.</div>
+I thrive when faced with doubt and succeed despite hardships. And when I commit to a task, I don't give up until I get it done.<br>
 
-<div>In my free time, I indulge in reading books, conducting research, and learning new things.
-I also write articles on Medium about the psychology and workings of the mind, which is a topic that fascinates me.</div>
+In my free time, I indulge in reading books, conducting research, and learning new things.
+I also write articles on Medium about the psychology and workings of the mind, which is a topic that fascinates me.<br>
 
-<div>Overall, I approach both my personal and professional life with a commitment to excellence and a passion for making a positive impact.
-I am excited to see where this drive takes me and to be a part of projects that challenge and inspire me.</div>
+Overall, I approach both my personal and professional life with a commitment to excellence and a passion for making a positive impact.
+I am excited to see where this drive takes me and to be a part of projects that challenge and inspire me.<br>
 """
 
 def experience():

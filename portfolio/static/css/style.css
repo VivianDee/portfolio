@@ -1,6 +1,8 @@
 body {
     font-family: monospace;
-    background-color: black;
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(240deg, #242a49 0%, #18181a 19%);
     color: white;
     max-height: 100vh;
 }
@@ -40,12 +42,13 @@ body {
 }
 
 #output {
-    color: #00ff00;
+    color: #2edeee;
+    font-weight: 600;
 }
 
 #input {
     display: flex;
-    background-color: black;
+    background-color: inherit;
     color: white;
 }
 
@@ -61,7 +64,7 @@ body {
 
 #command {
     border: 0px solid;
-    background-color: black;
+    background-color: inherit;
     color: #ccc;
     font-weight: 700;
     font-family: monospace;
