@@ -22,6 +22,8 @@ body {
     height: 400px;
     font-size: 16px;
     overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
 }
 #shell:hover{
     box-shadow: 0px 3px 3px 1px rgba(255, 255, 255, 0.5);
@@ -65,9 +67,11 @@ body {
 #command {
     border: 0px solid;
     background-color: inherit;
+    width: 100%;
     color: #ccc;
     font-weight: 700;
     font-family: monospace;
+    /* scroll-snap-align: end; */
 }
 
 input:focus{
@@ -99,6 +103,13 @@ input:focus{
 
 .desc {
     padding-top: 30px;
+}
+
+.project {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    cursor: pointer;
 }
 
 @media (max-width: 1700px) {

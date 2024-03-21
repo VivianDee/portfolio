@@ -47,48 +47,60 @@ I am excited to see where this drive takes me and to be a part of projects that 
 def experience():
     return """
 --- Experience ---<br>
-Backend Developer Intern<br>
+Software Engineer<br>                                       
+BEMA<br>
+01/2024 - present<br>
+
+- Developed a Wordpress plugin to sync data between EDD and MailerLite, creating a customer relationship model.<br>
+- Designed and implemented EDD secure checkout, sign up, login in, orders, and downloads custom pages for improved user experience.<br>
+- WordPressed a site from provided frontend designs, showcasing proficiency in WordPress development.<br>
+- Quickly became the go-to person for information within a month of joining the startup company, highlighting effective collaboration and quick learning.<br>
+- Implemented Git for version control across the company, providing training sessions for team members, including the CEO.<br>
+<br><br>
 TechProsNaijia<br>
 11/2023 - 12/2023<br>
-<br>- Developed a Wordpress plugin to sync data between EDD and MailerLite.<br>
-- Designed and implemented EDD secure checkout, sign up, login in, orders, and downloads custom pages.<br>
-- WordPressed a site from provided frontend designs.<br>
-- Implemented Git for version control across the company.<br>
+<br>- Gained hands-on experience with Node.js, Express, MySQL and knex.js.<br>
+- Hosted the backend application on the server and resolved a critical server issue saving the company significant time and money.<br>
 """
 
 def education():
     return """
 --- Education ---<br>
-Chemistry / Bachelor of Science<br>
-Second Class Upper<br>
-University of Benin<br>
-09/2017 - 12/2021<br>
-ALX Full Stack Software Engineering<br>
 ALX Africa<br>
 02/2023 - 02/2024<br>
+ALX Full Stack Software Engineering<br>
+<br>freeCodeCamp<br>
+05/2022 -  03/2023<br>
+JavaScript Algorithms and Data Structures<br>
+Responsive Web Design<br>
+<br>University of Benin<br>
+09/2017 - 12/2021<br>
+Chemistry / Bachelor of Science<br>
+Second Class Upper<br>
 """
 
 def skills():
     return """
 --- Skills ---<br>
-Backend Development: Flask Django Node.js Express Framework RESTful API<br>
-Others: Ubuntu, Windows, Unittest and Shell scripting for automation<br>
-Server Administration: Ubuntu Server<br>
-Version Control: Git<br>
-Programming: Python JavaScript f PHP<br>
-Web Server Administration: Docker Nginx Haproxy<br>
-Database: SQL MySQL<br>
-Frontend Development: HTML CSS<br>
+<br>Programming: Python JavaScript PHP<br>
+<br>Backend Development: Flask Django Node.js Express Framework RESTful API<br>
+<br>Frontend Development: HTML CSS<br>
+<br>Database: SQL MySQL<br>
+<br>Web Server Administration: Docker Nginx Haproxy<br>
+<br>Version Control: Git<br>
+<br>Server Administration: Ubuntu Server<br>
+<br>Others: Ubuntu, Windows, Unittest and Shell scripting for automation<br>
 """
 
 def projects():
     return """
 --- Projects ---<br>
-AirBnB Clone Project<br>
-TechProsNaija Backend Team Project<br>
-Custom _printf() Function and Simple Shell Project in C<br>
-Responsive Websites Development<br>
-Cash Register & Caesars Cipher<br>
+<a class="project" href="https://github.com/VivianDee/AirBnB_clone"  target="_blank">AirBnB Clone Project<br></a>
+<a class="project" href="https://techprosnaija.com" target="_blank">TechProsNaija Backend Team Project<br></a>
+<a class="project" href="https://github.com/VivianDee/printf" target="_blank">Custom _printf() Function<br></a>
+<a class="project" href="https://github.com/VivianDee/simple_shell"  target="_blank">Simple Shell Project in C<br></a>
+<a class="project" href="https://www.freecodecamp.org/certification/fccb57bc24d-114f-484e-83d9-dad32eb6684c/responsive-web-design" target="_blank">Responsive Websites Development<br></a>
+<a class="project" href="https://www.freecodecamp.org/certification/fccb57bc24d-114f-484e-83d9-dad32eb6684c/javascript-algorithms-and-data-structures" target="_blank">Cash Register & Caesars Cipher<br></a><br>
 """
 
 def interests():
