@@ -23,6 +23,8 @@ def get_info():
         result = projects()
     elif section in ["interests", "6"]:
         result = interests()
+    elif section in ["chat", "7"]:
+        result = chat()
     else:
         result = "Invalid Command<br>"
     return result
@@ -48,8 +50,8 @@ def experience():
     return """
 --- Experience ---<br>
 Software Engineer<br>                                       
-BEMA<br>
-01/2024 - present<br>
+BEMA
+<br>01/2024 - present<br>
 
 - Developed a Wordpress plugin to sync data between EDD and MailerLite, creating a customer relationship model.<br>
 - Designed and implemented EDD secure checkout, sign up, login in, orders, and downloads custom pages for improved user experience.<br>
@@ -108,6 +110,19 @@ def interests():
 --- Interests ---<br>
 Volunteering,<br> Programming,<br> Research, <br>Reading & Writing
 """
+
+def chat():
+    return """
+    <div class="chatbox"><iframe
+    src="https://www.chatbase.co/chatbot-iframe/XUyJTPNr_uwULvvZM1sr6"
+    title="Chatbot"
+    width="100%"
+    style="height: 400px; padding: 10px"
+    frameborder="0"
+    ></iframe>
+    </div>
+    <br>
+    """
 
 if __name__ == '__main__':
     app.run(debug=True)

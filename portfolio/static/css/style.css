@@ -7,6 +7,8 @@ body {
     max-height: 100vh;
 }
 
+
+
 .container {
     margin: auto;
     max-width: 800px;
@@ -150,4 +152,22 @@ input:focus{
         width: 150px;
         height: 150px;
     }
+}
+
+
+/* Chat bot styling */
+.bg-white {
+    background-color: transparent !important;
+    background-image: inherit !important;
+}
+
+.chatbox {
+    padding: 10px;
+    margin: 10px;
+}
+
+#closechat {
+    position: relative;
+    top: 0;
+    right: 0;
 }

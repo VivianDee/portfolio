@@ -14,10 +14,13 @@ function handleCommand(event) {
             case "help":
                 displayHelp();
                 break;
-            case "1":
+            case "1": case "intro":
                 getInfo(command, ".");
                 break;
-            case "5":
+            case "5": case "projects":
+                getInfo(command, "<br>");
+                break;
+            case "7": case "chat":
                 getInfo(command, "<br>");
                 break;
             default:
