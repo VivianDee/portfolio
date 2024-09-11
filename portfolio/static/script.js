@@ -3,6 +3,7 @@ function handleCommand(event) {
         var commandInput = $("#command");
         var command = commandInput.val().trim();
         commandInput.val("");
+        $(".chatbox").hide();
 
         var output = $("#output");
         output.append("<div style='color: white;'><span>$</span> " + command + "</div>");
