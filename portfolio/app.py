@@ -49,15 +49,23 @@ I am excited to see where this drive takes me and to be a part of projects that 
 def experience():
     return """
 --- Experience ---<br>
+PHP Laravel Developer<br>                                       
+Bakkaz Information And Technology, Nigeria 
+<br>05/2024 - present<br>
+
+- Developed Laravel-based microservices to enhance key functionalities for Authentication,  payments, advertisements, and user preferences across multiple applications, significantly reducing app development time.<br>
+-Enhanced code maintainability and scalability by allowing independent updates to each microservice, thereby reducing the probability of Single Point of Failure (SPOF) .<br>
+- Collaborated with a team of frontend and backend developers, designers and a project manager to ensure seamless app development.<br>
+- Contributed to the DevOps process by selecting Vultr as the hosting platform and managing the server using Laravel Forge, enhancing security, reliability, and resource management for hosted microservices.<br>
+- Engaged in regular code reviews and knowledge-sharing sessions with the team, fostering a culture of continuous learning and improvement.<br>
+<br><br>
 Software Engineer<br>                                       
-BEMA
-<br>01/2024 - present<br>
+BEMA Integrated Services, Nigeria
+<br>01/2024 - 05/24<br>
 
 - Developed a Wordpress plugin to sync data between EDD and MailerLite, creating a customer relationship model.<br>
-- Designed and implemented EDD secure checkout, sign up, login in, orders, and downloads custom pages for improved user experience.<br>
-- WordPressed a site from provided frontend designs, showcasing proficiency in WordPress development.<br>
-- Quickly became the go-to person for information within a month of joining the startup company, highlighting effective collaboration and quick learning.<br>
-- Implemented Git for version control across the company, providing training sessions for team members, including the CEO.<br>
+- Customized Easy Digital Downloads Plugin.<br>
+- Collaborated with frontend and designers to create the backend of a custom WordPress theme from provided designs, showcasing proficiency in WordPress development.<br>
 <br><br>
 TechProsNaijia<br>
 11/2023 - 12/2023<br>
@@ -84,25 +92,27 @@ Second Class Upper<br>
 def skills():
     return """
 --- Skills ---<br>
-<br>Programming: Python JavaScript PHP<br>
-<br>Backend Development: Flask Django Node.js Express Framework RESTful API<br>
+<br>Programming: PHP Python JavaScript <br>
+<br>Backend Development: Laravel Flask Django<br>
 <br>Frontend Development: HTML CSS<br>
-<br>Database: SQL MySQL<br>
-<br>Web Server Administration: Docker Nginx Haproxy<br>
-<br>Version Control: Git<br>
-<br>Server Administration: Ubuntu Server<br>
-<br>Others: Ubuntu, Windows, Unittest and Shell scripting for automation<br>
+<br>Database: SQL MySQL SQLAlchemy SQLite ERDL<br>
+<br>Web Server Administration: Nginx HAProxy Gunicorn Docker  SSH  cPanel  SSL<br>
+<br>Version Control: Git Github<br>
+<br>API Development and Integration: RESTful APIs Integration of third-party APIs Postman<br>
+<br>Others: CI/CD  TDD   Unit Testing   Code Reviews<br>
 """
 
 def projects():
     return """
 --- Projects ---<br>
-<a class="project" href="https://github.com/VivianDee/AirBnB_clone"  target="_blank">AirBnB Clone Project<br></a>
+<a class="project" href="https://www.recenthpost.com/home" target="_blank">Recenth Posts<br></a>
+<a class="project" href="https://github.com/VivianDee/Bakkaz" target="_blank">Authentication MicroService<br></a>
+<a class="project" href="https://github.com/VivianDee/Bakkaz" target="_blank">Ads MicroService<br></a>
+<a class="project" href="https://github.com/VivianDee/Bakkaz" target="_blank">Payment MicroService<br></a>
+<a class="project" href="https://github.com/VivianDee/Bakkaz" target="_blank">User Preferences MicroService<br></a>
 <a class="project" href="https://techprosnaija.com" target="_blank">TechProsNaija Backend Team Project<br></a>
-<a class="project" href="https://github.com/VivianDee/printf" target="_blank">Custom _printf() Function<br></a>
-<a class="project" href="https://github.com/VivianDee/simple_shell"  target="_blank">Simple Shell Project in C<br></a>
-<a class="project" href="https://www.freecodecamp.org/certification/fccb57bc24d-114f-484e-83d9-dad32eb6684c/responsive-web-design" target="_blank">Responsive Websites Development<br></a>
-<a class="project" href="https://www.freecodecamp.org/certification/fccb57bc24d-114f-484e-83d9-dad32eb6684c/javascript-algorithms-and-data-structures" target="_blank">Cash Register & Caesars Cipher<br></a><br>
+<a class="project" href="https://github.com/VivianDee/AirBnB_clone_v4"  target="_blank">AirBnB Clone Project<br></a>
+<br>
 """
 
 def interests():
